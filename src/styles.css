@@ -188,7 +188,7 @@ body{
     font-size: 12px;
     font-weight: bold;
     background-color: rgb(255, 255, 255);
-    padding: 10px 40px;
+    padding: 16px 40px;
     border-radius: 30px ;
     text-decoration: none;
     color: black;
@@ -246,7 +246,7 @@ body{
 .hero-text p{
     font-size: 14px;
     font-weight: normal;
-    padding-bottom: 14px;
+    padding-bottom: 30px;
    
 }
 
@@ -255,7 +255,7 @@ body{
     font-size: 12px;
     font-weight: bold;
     background-color: rgb(255, 255, 255);
-    padding: 10px 40px;
+    padding: 16px 40px;
     border-radius: 30px ;
     text-decoration: none;
     color: black;
