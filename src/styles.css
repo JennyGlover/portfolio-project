@@ -47,7 +47,7 @@ body{
 
 .hero-text p{
     font-size: 22px;
-    font-weight: lighter;
+    font-weight: normal;
     padding-bottom: 50px;
    
 }
@@ -115,7 +115,7 @@ body{
     
     .hero-text p{
         font-size: 18px;
-        font-weight: lighter;
+        font-weight: normal;
         padding-bottom: 40px;
        
     }
@@ -178,7 +178,7 @@ body{
 
 .hero-text p{
     font-size: 14px;
-    font-weight: lighter;
+    font-weight: normal;
     padding-bottom: 14px;
    
 }
@@ -245,7 +245,7 @@ body{
 
 .hero-text p{
     font-size: 14px;
-    font-weight: lighter;
+    font-weight: normal;
     padding-bottom: 14px;
    
 }
