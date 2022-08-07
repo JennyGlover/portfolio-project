@@ -1,13 +1,199 @@
 body{
-    background-color: #f4f4f4;
-}
-
-h1{
-    color: #080808;
+    background-color: #212121;    
     font-family: 'Roboto', sans-serif;
+
 }
 
-i{
-    color: blue;
-    font-size: 50px;
+
+.navbar-nav{
+    padding-top: 30px;
+    margin-left: auto;
 }
+.navbar-brand{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+.hero {
+    background-image: url(../images/bg.png);
+    background-size: contain;
+    height: 900px;
+    width: 100%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+
+.hero-text{
+    padding-top: 265px;
+    text-align: center;
+    color: white;
+}
+
+.hero-text .artist-name{
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    letter-spacing: 6px;
+}
+
+.hero-text h1{
+    font-size: 90px;
+    letter-spacing: 6px;
+
+}
+
+.hero-text p{
+    font-size: 22px;
+    font-weight: lighter;
+    padding-bottom: 50px;
+   
+}
+
+
+.hero-text a {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    padding: 16px 46px;
+    border-radius: 30px ;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+@media (min-width: 1024px){
+    .container-body {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
+
+
+@media (max-width: 1023px){
+    .container-body {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .hero {
+        background-image: url(../images/bg.png);
+        background-size: contain;
+        height: 800px;
+        width: 100%;
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+      
+    }
+    .navbar-brand{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    .hero-text{
+        padding-top: 240px;
+        text-align: center;
+        color: white;
+    }
+    
+    .hero-text .artist-name{
+        font-size: 22px;
+        font-weight: bold;
+        padding-bottom: 5px;
+        letter-spacing: 6px;
+    }
+    
+    .hero-text h1{
+        font-size: 72px;
+        letter-spacing: 6px;
+        padding-bottom: 10px;
+    
+    }
+    
+    .hero-text p{
+        font-size: 18px;
+        font-weight: lighter;
+        padding-bottom: 40px;
+       
+    }
+    
+    
+    .hero-text a {
+        font-size: 14px;
+        font-weight: bold;
+        background-color: rgb(255, 255, 255);
+        padding: 16px 46px;
+        border-radius: 30px ;
+        text-decoration: none;
+        color: black;
+    }
+    
+}
+
+
+@media (max-width: 767px){
+    .container-body {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+
+.hero {
+    background-image: url(../images/bg.png);
+    background-size: contain;
+    height: 600px;
+    width: 100%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  
+}
+.navbar-brand{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hero-text{
+    padding-top: 176px;
+    text-align: center;
+    color: white;
+}
+
+.hero-text .artist-name{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    letter-spacing: 6px;
+}
+
+.hero-text h1{
+    font-size: 52px;
+    letter-spacing: 6px;
+    padding-bottom: 5px;
+
+}
+
+.hero-text p{
+    font-size: 14px;
+    font-weight: lighter;
+    padding-bottom: 14px;
+   
+}
+
+
+.hero-text a {
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 40px;
+    border-radius: 30px ;
+    text-decoration: none;
+    color: black;
+}
+
+}
+
+
