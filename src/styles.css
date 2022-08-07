@@ -85,8 +85,8 @@ body{
 
 }
 .flex-container{
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 320px;
+    margin-right: 320px;
     padding-top: 30px;
     padding-bottom: 10px;
     display: flex;
@@ -114,7 +114,9 @@ line-height: 20px;
         margin-left: 200px;
         margin-right: 200px;
     }
+
 }
+
 
 
 @media (max-width: 1023px){
@@ -190,6 +192,27 @@ line-height: 20px;
 
 }
 
+
+.flex-container{
+    margin-left: 55px;
+    margin-right: 55px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+}
+ 
+.artist-name-footer{
+font-size: 24px;
+color: white;
+font-weight: bold;
+line-height: 24px;
+}
+
+
+
 }
 
 
@@ -263,6 +286,28 @@ line-height: 20px;
 .middle-image{
     padding-left: 3px;
 
+}
+
+.flex-container{
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+}
+ 
+.artist-name-footer{
+font-size: 20px;
+color: white;
+font-weight: bold;
+line-height: 24px;
+}
+
+.copyrights{
+    font-size: 12px;
 }
 
 }
@@ -342,6 +387,27 @@ line-height: 20px;
 .middle-image{
     padding-left: 2px;
 
+}
+.flex-container{
+    margin-left: 18px;
+    margin-right: 0px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+ 
+.artist-name-footer{
+font-size: 16px;
+color: white;
+font-weight: bold;
+line-height: 24px;
+}
+
+.copyrights{
+    font-size: 12px;
 }
 
 }
