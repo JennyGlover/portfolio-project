@@ -63,6 +63,30 @@ body{
     color: black;
 }
 
+.first-row, .second-row, .third-row, .fourth-row{
+    width: 100%;
+    height: 290px;
+}
+
+.third-row{
+    width: 80%;
+}
+
+
+
+.art-gallery{
+    padding-left: 6px;
+
+}
+.clift{
+    padding-left: 6px;
+
+}
+
+ .img-container{
+   
+
+}
 
 
 @media (min-width: 1024px){
@@ -202,7 +226,7 @@ body{
         margin-left: 0px;
         margin-right: 0px;
     }
-.container{
+.navbar-containver{
     margin-left: 16px;
     margin-right: 16px;
 
