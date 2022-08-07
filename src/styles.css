@@ -203,8 +203,8 @@ body{
         margin-right: 0px;
     }
 .container{
-    margin-left: 18px;
-    margin-right: 18px;
+    margin-left: 16px;
+    margin-right: 16px;
 
 }
 
@@ -237,7 +237,7 @@ body{
 }
 
 .hero-text h1{
-    font-size: 32px;
+    font-size: 36px;
     letter-spacing: 6px;
     padding-bottom: 5px;
 
@@ -246,7 +246,7 @@ body{
 .hero-text p{
     font-size: 14px;
     font-weight: normal;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
    
 }
 
