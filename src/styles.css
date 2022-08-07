@@ -80,7 +80,33 @@ body{
 
 }
 
+.footer{
+    background-color: #282323;
+
+}
+.flex-container{
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+}
  
+.artist-name-footer{
+font-size: 30px;
+color: white;
+font-weight: bold;
+line-height: 20px;
+}
+
+.fa-brands {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
 
 
 @media (min-width: 1024px){
