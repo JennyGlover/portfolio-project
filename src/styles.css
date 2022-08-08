@@ -6,7 +6,7 @@ body{
 
 
 .navbar-nav{
-    padding-top: 30px;
+    padding-top: 0px;
     margin-left: auto;
 }
 .navbar-brand{
@@ -17,6 +17,8 @@ body{
 .navbar-containver{
     padding-left: 24px;
     padding-right: 19px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 
 }
 
@@ -121,20 +123,30 @@ line-height: 20px;
     padding-top: 20px;
 }
 
-.about-me-title{
+.about-me-title, .contact-info-title{
     color:#F65282 ;
     font-weight: bold;
     font-size: 20px;
     padding-bottom: 10px;
     letter-spacing: 3px;
 }
-.about-me-h1{
+.about-me-h1 {
     color: white;
     font-size: 64px;
     letter-spacing: 6px;
     padding-bottom: 20px;
 
 }
+
+.gallery-h1, .contact-h1{
+    text-align: center;
+    color: white;
+    font-size: 64px;
+    letter-spacing: 6px;
+    padding-bottom: 0px;
+    padding-top: 40PX;
+}
+
 .about-me-paragraph{
 color: white;
 font-weight: 300;
@@ -185,8 +197,9 @@ padding-bottom: 30px;
     margin-bottom: 80px;
 }
 
-.about-gallery-container{
+.gallery-container{
     background-color: #1B1B1B;
+    padding-bottom: 70px;
     
 }
 
@@ -212,6 +225,10 @@ padding-bottom: 30px;
     text-decoration: none;
     border-radius: 40px;
 
+}
+.contact-info{
+    color: white;
+    text-align: center;
 }
 
 @media (max-width: 1199px){
