@@ -14,6 +14,11 @@ body{
     font-weight: bold;
 }
 
+.navbar-containver{
+    padding-left: 24px;
+    padding-right: 19px;
+
+}
 
 .hero {
     background-image: url(../images/bg.png);
@@ -73,25 +78,24 @@ body{
 
 .row-one, .row-two, .row-three, .row-four {
 padding: 14px;
+box-sizing: content-box;
 }
 
 .row-one{
     padding-top: 90px;
 }
 
-.footer{
-    background-color: #282323;
-
-}
-.flex-container{
-    margin-left: 320px;
-    margin-right: 320px;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    display: flex;
-    justify-content: space-between;
+.footer{    
+    padding-top: 18px;
     color: white;
-    
+ text-align: center;
+}
+
+
+.footer-background{
+    background-color: #282323;
+    padding: 24px;
+   
 }
  
 .artist-name-footer{
@@ -115,16 +119,6 @@ line-height: 20px;
     }
 
 
-.flex-container{
-    margin-left: 55px;
-    margin-right: 55px;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    
-}
  
 .artist-name-footer{
 font-size: 24px;
@@ -196,7 +190,7 @@ line-height: 24px;
         font-size: 14px;
         font-weight: bold;
         background-color: rgb(255, 255, 255);
-        padding: 16px 46px;
+        padding: 22px 38px;
         border-radius: 30px ;
         text-decoration: none;
         color: black;
@@ -218,16 +212,7 @@ line-height: 24px;
     }
 
 
-.flex-container{
-    margin-left: 55px;
-    margin-right: 55px;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    
-}
+
  
 .artist-name-footer{
 font-size: 24px;
@@ -285,7 +270,7 @@ line-height: 24px;
 
 .hero-text p{
     font-size: 14px;
-    padding-bottom: 20px;
+    padding-bottom: 26px;
    
 }
 
@@ -294,7 +279,7 @@ line-height: 24px;
     font-size: 12px;
     font-weight: bold;
     background-color: rgb(255, 255, 255);
-    padding: 20px 38px;
+    padding: 16px 36px;
     border-radius: 30px ;
     text-decoration: none;
     color: black;
@@ -314,16 +299,7 @@ line-height: 24px;
     }
 
 
-.flex-container{
-    margin-left: 120px;
-    margin-right: 120px;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    
-}
+
  
 .artist-name-footer{
 font-size: 20px;
@@ -387,7 +363,7 @@ line-height: 24px;
 
 .hero-text p{
     font-size: 14px;
-    padding-bottom: 20px;
+    padding-bottom: 26px;
    
 }
 
@@ -415,16 +391,7 @@ line-height: 24px;
         padding-top: 44px;
     }
     
-.flex-container{
-    margin-left: 18px;
-    margin-right: 0px;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    display: flex;
-    justify-content: center;
-    color: white;
-    
-}
+
  
 .artist-name-footer{
 font-size: 16px;
