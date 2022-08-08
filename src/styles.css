@@ -25,7 +25,7 @@ body{
 .hero {
     background-image: url(../images/bg.png);
     background-size: contain;
-    height: 1200px;
+    height: 1000px;
     width: 100%;
     background-position: center; 
     background-repeat: no-repeat; 
@@ -34,7 +34,7 @@ body{
 
 
 .hero-text{
-    padding-top: 380px;
+    padding-top: 268px;
     text-align: center;
     color: white;
 }
@@ -141,7 +141,7 @@ line-height: 20px;
 .gallery-h1, .contact-h1{
     text-align: center;
     color: white;
-    font-size: 64px;
+    font-size: 72px;
     letter-spacing: 6px;
     padding-bottom: 0px;
     padding-top: 40PX;
@@ -192,15 +192,23 @@ padding-bottom: 30px;
 .camera-img-backgroung{
     background-color: #2D2727
     ;
-    width: 430px;
+    width: 438px;
     border-radius: 5px;
     margin-bottom: 80px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
 }
 
 .gallery-container{
     background-color: #1B1B1B;
     padding-bottom: 70px;
     
+}
+
+.contact-background{
+    background-color: #1B1B1B;
+    padding-bottom: 130px;
 }
 
 .about-hero-container{
@@ -214,6 +222,7 @@ padding-bottom: 30px;
     padding: 20px 64px;
     text-decoration: none;
     border-radius: 40px;
+    font-weight: bold;
 
 }
 
@@ -224,6 +233,7 @@ padding-bottom: 30px;
     padding: 20px 64px;
     text-decoration: none;
     border-radius: 40px;
+    font-weight: bold;
 
 }
 .contact-info{
@@ -237,7 +247,37 @@ padding-bottom: 30px;
         margin-right: 200px;
     }
 
+    .hero {
+        background-image: url(../images/bg.png);
+        background-size: contain;
+        height: 940px;
+        width: 100%;
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+    }
 
+
+.hero-text h1{
+    font-size: 90px;
+    letter-spacing: 6px;
+    padding-bottom: 10px;
+
+}
+    
+    
+    .hero-text{
+        padding-top: 268px;
+        text-align: center;
+        color: white;
+    }
+    
+    .hero-text .artist-name{
+        font-size: 32px;
+        font-weight: bold;
+        padding-bottom: 5px;
+        letter-spacing: 6px;
+    }
  
 .artist-name-footer{
 font-size: 24px;
@@ -252,6 +292,92 @@ line-height: 24px;
 
 .row-one{
         padding-top: 74px;
+    }
+
+    .woman-img-about{
+        width: 520px;
+        padding-left: 10px;
+    }
+
+    .about-container{
+        padding-top: 20px;
+    }
+    
+    .about-me-title, .contact-info-title{
+        color:#F65282 ;
+        font-weight: bold;
+        font-size: 20px;
+        padding-bottom: 10px;
+        letter-spacing: 3px;
+    }
+    .about-me-h1 {
+        color: white;
+        font-size: 50px;
+        letter-spacing: 6px;
+        padding-bottom: 20px;
+    
+    }
+    
+    .gallery-h1, .contact-h1{
+        text-align: center;
+        color: white;
+        font-size: 72px;
+        letter-spacing: 6px;
+        padding-bottom: 0px;
+        padding-top: 40PX;
+    }
+    
+    .about-me-paragraph{
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    padding-bottom: 20px;
+    
+    }
+    
+    .about-icon{
+        color: white;
+        padding-right: 20px;
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+    
+    .about-col-background{
+        background-color: #1B1B1B;
+        padding-left: 40px;
+        padding-right: 40px;
+    
+    }
+    .about-camera{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .camera-img{
+        display: inline-block;
+        width: 96px;
+        padding-right: 20px;
+        padding-left: 24px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+    }
+    
+    .about-page-gallery{
+        padding-bottom: 80px;
+        background-color: #1B1B1B;
+    }
+    
+    
+    .camera-img-backgroung{
+        background-color: #2D2727
+        ;
+        width: 438px;
+        border-radius: 5px;
+        margin-bottom: 80px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    
     }
 
 }
