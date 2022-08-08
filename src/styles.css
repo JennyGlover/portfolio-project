@@ -18,7 +18,7 @@ body{
 .hero {
     background-image: url(../images/bg.png);
     background-size: contain;
-    height: 900px;
+    height: 1200px;
     width: 100%;
     background-position: center; 
     background-repeat: no-repeat; 
@@ -27,13 +27,13 @@ body{
 
 
 .hero-text{
-    padding-top: 265px;
+    padding-top: 380px;
     text-align: center;
     color: white;
 }
 
 .hero-text .artist-name{
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
     padding-bottom: 5px;
     letter-spacing: 6px;
@@ -42,22 +42,24 @@ body{
 .hero-text h1{
     font-size: 90px;
     letter-spacing: 6px;
+    padding-bottom: 30px;
 
 }
 
 .hero-text p{
     font-size: 22px;
-    font-weight: normal;
-    padding-bottom: 50px;
+    font-weight: 300;
+    padding-bottom: 66px;
    
 }
+
 
 
 .hero-text a {
     font-size: 18px;
     font-weight: bold;
     background-color: rgb(255, 255, 255);
-    padding: 16px 46px;
+    padding: 20px 64px;
     border-radius: 30px ;
     text-decoration: none;
     color: black;
@@ -69,15 +71,12 @@ body{
 
 }
 
-
-
-.last-image{
-    padding-left: 6px;
-
+.row-one, .row-two, .row-three, .row-four {
+padding: 14px;
 }
-.middle-image{
-    padding-left: 6px;
 
+.row-one{
+    padding-top: 90px;
 }
 
 .footer{
@@ -109,10 +108,37 @@ line-height: 20px;
 }
 
 
-@media (min-width: 1024px){
+@media (max-width: 1199px){
     .container-body {
         margin-left: 200px;
         margin-right: 200px;
+    }
+
+
+.flex-container{
+    margin-left: 55px;
+    margin-right: 55px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+}
+ 
+.artist-name-footer{
+font-size: 24px;
+color: white;
+font-weight: bold;
+line-height: 24px;
+}
+
+.row-one, .row-two, .row-three, .row-four {
+    padding: 10px;
+    }
+
+.row-one{
+        padding-top: 74px;
     }
 
 }
@@ -146,7 +172,7 @@ line-height: 20px;
     }
     
     .hero-text .artist-name{
-        font-size: 22px;
+        font-size: 24px;
         font-weight: bold;
         padding-bottom: 5px;
         letter-spacing: 6px;
@@ -155,14 +181,13 @@ line-height: 20px;
     .hero-text h1{
         font-size: 72px;
         letter-spacing: 6px;
-        padding-bottom: 10px;
+        padding-bottom: 8px;
     
     }
     
     .hero-text p{
         font-size: 18px;
-        font-weight: normal;
-        padding-bottom: 40px;
+        padding-bottom: 35px;
        
     }
     
@@ -183,14 +208,14 @@ line-height: 20px;
 }
 
 
-.last-image{
-    padding-left: 4px;
+.row-one, .row-two, .row-three, .row-four {
+    padding: 8px;
 
-}
-.middle-image{
-    padding-left: 4px;
+    }
 
-}
+    .row-one{
+        padding-top: 68px;
+    }
 
 
 .flex-container{
@@ -245,23 +270,22 @@ line-height: 24px;
 }
 
 .hero-text .artist-name{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
     letter-spacing: 6px;
 }
 
 .hero-text h1{
     font-size: 52px;
     letter-spacing: 6px;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
 
 }
 
 .hero-text p{
     font-size: 14px;
-    font-weight: normal;
-    padding-bottom: 14px;
+    padding-bottom: 20px;
    
 }
 
@@ -270,7 +294,7 @@ line-height: 24px;
     font-size: 12px;
     font-weight: bold;
     background-color: rgb(255, 255, 255);
-    padding: 16px 40px;
+    padding: 12px 30px;
     border-radius: 30px ;
     text-decoration: none;
     color: black;
@@ -279,14 +303,16 @@ line-height: 24px;
 .first-row, .second-row, .third-row, .fourth-row{
     width: 100%;
 }
-.last-image{
-    padding-left: 3px;
 
-}
-.middle-image{
-    padding-left: 3px;
 
-}
+.row-one, .row-two, .row-three, .row-four {
+    padding: 6px;
+    }
+    
+    .row-one{
+        padding-top: 54px;
+    }
+
 
 .flex-container{
     margin-left: 120px;
@@ -340,7 +366,7 @@ line-height: 24px;
 }
 
 .hero-text{
-    padding-top: 176px;
+    padding-top: 179px;
     text-align: center;
     color: white;
 }
@@ -348,21 +374,20 @@ line-height: 24px;
 .hero-text .artist-name{
     font-size: 18px;
     font-weight: bold;
-    padding-bottom: 5px;
+    padding-bottom: 9px;
     letter-spacing: 6px;
 }
 
 .hero-text h1{
     font-size: 36px;
     letter-spacing: 6px;
-    padding-bottom: 5px;
+    padding-bottom: 8px;
 
 }
 
 .hero-text p{
     font-size: 14px;
-    font-weight: normal;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
    
 }
 
@@ -371,7 +396,7 @@ line-height: 24px;
     font-size: 12px;
     font-weight: bold;
     background-color: rgb(255, 255, 255);
-    padding: 16px 40px;
+    padding: 12px 30px;
     border-radius: 30px ;
     text-decoration: none;
     color: black;
@@ -380,14 +405,16 @@ line-height: 24px;
 .first-row, .second-row, .third-row, .fourth-row{
     width: 100%;
 }
-.last-image{
-    padding-left: 2px;
 
-}
-.middle-image{
-    padding-left: 2px;
 
-}
+.row-one, .row-two, .row-three, .row-four {
+    padding: 4px
+    
+    }
+    .row-one{
+        padding-top: 44px;
+    }
+    
 .flex-container{
     margin-left: 18px;
     margin-right: 0px;
