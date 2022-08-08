@@ -5,6 +5,7 @@ body{
 }
 
 
+
 .navbar-nav{
     padding-top: 0px;
     margin-left: auto;
@@ -115,7 +116,7 @@ line-height: 20px;
 }
 
 .woman-img-about{
-    width: 690px;
+    width: 698px;
     padding-left: 10px;
 }
 
@@ -241,6 +242,115 @@ padding-bottom: 30px;
     text-align: center;
 }
 
+@media (max-width: 1399px){
+    .woman-img-about{
+        margin-top: 14px;
+        padding-top: 20px;
+        width: 720px;
+        padding-right: 180px;
+    }
+
+ 
+    .about-me-title, .contact-info-title{
+        color:#F65282 ;
+        font-weight: bold;
+        font-size: 20px;
+        padding-bottom: 10px;
+        letter-spacing: 3px;
+    }
+    .about-me-h1 {
+        color: white;
+        font-size: 50px;
+        letter-spacing: 6px;
+        padding-bottom: 20px;
+    
+    }
+    
+    .gallery-h1, .contact-h1{
+        text-align: center;
+        color: white;
+        font-size: 72px;
+        letter-spacing: 6px;
+        padding-bottom: 0px;
+        padding-top: 40px;
+    }
+    
+    .about-me-paragraph{
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    padding-bottom: 18px;
+    
+    }
+    
+    .about-icon{
+        color: white;
+        padding-right: 20px;
+        font-size: 20px;
+        padding-bottom: 36px;
+    }
+    
+    .about-col-background{
+        background-color: #1B1B1B;
+        padding-left: 40px;
+        padding-right: 40px;
+    
+    }
+    .about-camera{
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .camera-img{
+        display: inline-block;
+        width: 96px;
+        padding-right: 20px;
+        padding-left: 24px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+    }
+    
+    .about-page-gallery{
+        padding-bottom: 80px;
+        background-color: #1B1B1B;
+    }
+    
+    
+    .camera-img-backgroung{
+        background-color: #2D2727
+        ;
+        width: 394px;
+        border-radius: 5px;
+        margin-bottom: 54px;
+        padding-top: 12px;
+        padding-bottom: 8px;
+    
+    }
+    .contact-button{
+        color: black ;
+        background-color: white;
+        padding: 16px 58px;
+        text-decoration: none;
+        border-radius: 40px;
+        font-weight: bold;
+    
+    }
+    
+    
+    .contact-button:hover{
+        color: black ;
+        background-color: white;
+        padding: 20px 64px;
+        text-decoration: none;
+        border-radius: 40px;
+        font-weight: bold;
+    
+    }
+
+
+}
+
 @media (max-width: 1199px){
     .container-body {
         margin-left: 200px;
@@ -293,28 +403,31 @@ line-height: 24px;
 .row-one{
         padding-top: 74px;
     }
-
+    
     .woman-img-about{
-        width: 520px;
-        padding-left: 10px;
+        margin-top: 16px;
+        padding-top: 40px;
+        width: 780px;
+        padding-right: 300px;
     }
 
+
     .about-container{
-        padding-top: 20px;
+        padding-top: 14px;
     }
     
     .about-me-title, .contact-info-title{
         color:#F65282 ;
         font-weight: bold;
         font-size: 20px;
-        padding-bottom: 10px;
+        padding-bottom: 06px;
         letter-spacing: 3px;
     }
     .about-me-h1 {
         color: white;
-        font-size: 50px;
+        font-size: 45px;
         letter-spacing: 6px;
-        padding-bottom: 20px;
+        padding-bottom: 12px;
     
     }
     
@@ -324,14 +437,14 @@ line-height: 24px;
         font-size: 72px;
         letter-spacing: 6px;
         padding-bottom: 0px;
-        padding-top: 40PX;
+        padding-top: 40px;
     }
     
     .about-me-paragraph{
     color: white;
     font-weight: 300;
-    font-size: 18px;
-    padding-bottom: 20px;
+    font-size: 14px;
+    padding-bottom: 18px;
     
     }
     
@@ -339,7 +452,7 @@ line-height: 24px;
         color: white;
         padding-right: 20px;
         font-size: 20px;
-        padding-bottom: 40px;
+        padding-bottom: 24px;
     }
     
     .about-col-background{
@@ -350,13 +463,13 @@ line-height: 24px;
     }
     .about-camera{
         color: white;
-        font-size: 20px;
+        font-size: 14px;
         font-weight: bold;
     }
     .camera-img{
         display: inline-block;
-        width: 96px;
-        padding-right: 20px;
+        width: 94px;
+        padding-right: 18px;
         padding-left: 24px;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -364,20 +477,49 @@ line-height: 24px;
     }
     
     .about-page-gallery{
-        padding-bottom: 80px;
+        padding-bottom: 40px;
         background-color: #1B1B1B;
     }
     
     
     .camera-img-backgroung{
-        background-color: #2D2727
-        ;
-        width: 438px;
+        background-color: #2D2727;
+        width: 358px;
         border-radius: 5px;
-        margin-bottom: 80px;
-        padding-top: 12px;
-        padding-bottom: 12px;
+        margin-bottom: 48px;
+        padding-top: 6px;
+        padding-bottom: 6px;
     
+    }
+    .contact-button{
+        color: black ;
+        background-color: white;
+        padding: 16px 58px;
+        text-decoration: none;
+        border-radius: 40px;
+        font-weight: bold;
+    
+    }
+    
+    
+    .contact-button:hover{
+        color: black ;
+        background-color: white;
+        padding: 20px 64px;
+        text-decoration: none;
+        border-radius: 40px;
+        font-weight: bold;
+    
+    }
+
+    .gallery-container{
+        background-color: #202020;
+        padding-bottom: 105px;
+        
+    }
+
+    .about-col-background{
+        height: 580px;
     }
 
 }
@@ -466,7 +608,17 @@ font-weight: bold;
 line-height: 24px;
 }
 
+.about-hero-container{
+    padding-bottom: 0px;
+}
 
+.about-page-gallery{
+    padding-bottom: 20px;
+}
+
+}
+
+@media (max-width: 768px){
 
 }
 
@@ -555,6 +707,16 @@ line-height: 24px;
 
 .copyrights{
     font-size: 12px;
+}
+
+.gallery-container{
+    background-color: #202020;
+    padding-bottom: 124px;
+    
+}
+
+.about-col-background{
+    height: 580px;
 }
 
 }
@@ -647,6 +809,17 @@ line-height: 24px;
 
 .copyrights{
     font-size: 12px;
+}
+
+
+.gallery-container{
+    background-color: #202020;
+    padding-bottom: 124px;
+    
+}
+
+.about-col-background{
+    height: 580px;
 }
 
 }
