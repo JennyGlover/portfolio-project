@@ -106,16 +106,103 @@ font-weight: bold;
 line-height: 20px;
 }
 
-.fa-brands {
+.home-icon {
     padding-left: 10px;
     padding-right: 10px;
 
 }
 
 .woman-img-about{
-    width: 750px;
+    width: 650px;
+    padding-left: 10px;
 }
 
+.about-container{
+    padding-top: 20px;
+}
+
+.about-me-title{
+    color:#F65282 ;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+    letter-spacing: 3px;
+}
+.about-me-h1{
+    color: white;
+    font-size: 64px;
+    letter-spacing: 6px;
+    padding-bottom: 20px;
+
+}
+.about-me-paragraph{
+color: white;
+font-weight: 300;
+font-size: 20px;
+padding-bottom: 30px;
+
+}
+
+.about-icon{
+    color: white;
+    padding-right: 20px;
+    font-size: 20px;
+    padding-bottom: 66px;
+}
+
+.about-col-background{
+    background-color: #1B1B1B;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+.about-camera{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.camera-img{
+    display: inline-block;
+    width: 96px;
+    padding-right: 20px;
+    padding-left: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.about-page-gallery{
+    padding-bottom: 80px;
+    background-color: #1B1B1B;
+}
+
+
+.camera-img-backgroung{
+    background-color: #2D2727
+    ;
+    width: 430px;
+    border-radius: 5px;
+    margin-bottom: 80px;
+}
+
+.about-gallery-container{
+    background-color: #1B1B1B;
+    
+}
+
+.about-hero-container{
+    background-color:  #202020;
+
+}
+
+.contact-button{
+    color: black ;
+    background-color: white;
+    padding: 20px 64px;
+    text-decoration: none;
+    border-radius: 40px;
+
+}
 
 @media (max-width: 1199px){
     .container-body {
