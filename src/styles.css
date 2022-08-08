@@ -67,6 +67,7 @@ body{
     padding: 20px 64px;
     border-radius: 30px ;
     text-decoration: none;
+    letter-spacing: 3px;
     color: black;
 }
 
@@ -109,6 +110,10 @@ line-height: 20px;
     padding-left: 10px;
     padding-right: 10px;
 
+}
+
+.woman-img-about{
+    width: 750px;
 }
 
 
