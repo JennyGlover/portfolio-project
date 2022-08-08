@@ -113,7 +113,7 @@ line-height: 20px;
 }
 
 .woman-img-about{
-    width: 650px;
+    width: 690px;
     padding-left: 10px;
 }
 
@@ -196,6 +196,16 @@ padding-bottom: 30px;
 }
 
 .contact-button{
+    color: black ;
+    background-color: white;
+    padding: 20px 64px;
+    text-decoration: none;
+    border-radius: 40px;
+
+}
+
+
+.contact-button:hover{
     color: black ;
     background-color: white;
     padding: 20px 64px;
