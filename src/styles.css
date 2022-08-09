@@ -266,6 +266,24 @@ padding-bottom: 30px;
     padding-top: 140px;
 }
 
+.git-hub-source {
+    text-align: center;
+    color: white;
+    padding-top: 14px;
+}
+.git-hub-source a{
+    text-align: center;
+    text-decoration: none;
+    color: #F65282;
+}
+
+.git-hub-source a:hover{
+    text-align: center;
+    text-decoration: none;
+    color: #F65282;
+}
+
+
 @media (max-width: 1399px){
     .woman-img-about{
         margin-top: 14px;
