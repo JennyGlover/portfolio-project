@@ -105,7 +105,16 @@ box-sizing: content-box;
     text-align: center;
   
   }
+.social-icons a {
+   text-decoration: none;
+   color: white;
+}
 
+.social-icons a:hover{
+    text-decoration: none;
+    color: white;
+ }
+  
  
 .artist-name-footer a{
 font-size: 30px;
