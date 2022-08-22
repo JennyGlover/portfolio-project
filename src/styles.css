@@ -108,7 +108,9 @@ box-sizing: content-box;
   }
 .social-icons a {
    text-decoration: none;
-   color: white;
+   color: white;    
+   font-size: 30px;
+
 }
 
 .social-icons a:hover{
