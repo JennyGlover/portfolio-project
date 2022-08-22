@@ -98,7 +98,7 @@ box-sizing: content-box;
     text-align: center;
 
 }
-
+/
 .flex-container {
     display: flex;
     padding-top: 30px;     
@@ -109,9 +109,14 @@ box-sizing: content-box;
 .social-icons a {
    text-decoration: none;
    color: white;    
-   font-size: 30px;
+   font-size: 25px;
 
 }
+
+.fa-brands{
+    font-size: 25px !important;
+}
+
 
 .social-icons a:hover{
     text-decoration: none;
@@ -793,7 +798,7 @@ text-decoration: none;
     }
 
 .copyrights{
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .gallery-container{
@@ -901,7 +906,7 @@ text-decoration: none;
 
  
 .artist-name-footer a{
-font-size: 16px;
+font-size: 20px;
 color: white;
 font-weight: bold;
 line-height: 24px;
@@ -910,7 +915,7 @@ text-decoration: none;
 
  
 .artist-name-footer a:hover{
-    font-size: 16px;
+    font-size: 20px;
     color: white;
     font-weight: bold;
     line-height: 24px;
@@ -919,7 +924,7 @@ text-decoration: none;
     
 
 .copyrights{
-    font-size: 12px;
+    font-size: 14px;
 }
 
 
